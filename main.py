@@ -3,11 +3,15 @@ print("=" * 10, "{:^30}".format("SEJA BEM-VINDO(A)"), "=" * 10)
 print("=" * 10, "{:^30}".format("PYTHON PARK RESORT"), "=" * 10)
 print("=" * 10, "{:^30}".format("SISTEMA DE CADASTRO"), "=" * 10)
 
+print("\n")
+
 # Lista vazia
 quarto = []
 
 # Solicita que o usuário informe o número de hóspedes
 num_hospedes = int(input("Informe o número de hóspedes: "))
+
+print("\n")
 
 for i in range(num_hospedes):
     print(" " * 10, "HÓSPEDE {:^}".format(i + 1), " " * 10)
